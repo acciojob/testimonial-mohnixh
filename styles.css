@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Font family for the entire document */
+}
+
+.testimonial-container {
+    padding: 20px; /* Padding around the testimonials */
+    background-color: #f5f5f5; /* Light gray background color */
+    max-width: 600px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    border-radius: 8px; /* Rounded corners for the container */
+}
+
+.testimonial {
+    padding: 15px; /* Padding inside each testimonial box */
+    border: 1px solid #ccc; /* Light gray border for the testimonial */
+    background-color: white; /* White background for the testimonial box */
+    margin: 15px 0; /* Margin between testimonials */
+    border-radius: 5px; /* Rounded corners for individual testimonials */
+}
+
+.testimonial-text {
+    font-size: 16px; /* Normal font size for testimonial text */
+    line-height: 1.5; /* Line height for better readability */
+}
+
+.testimonial-author {
+    text-align: right; /* Align author name to the right */
+    font-style: italic; /* Italic font style for author name */
+    margin-top: 10px; /* Margin above the author name */
+    color: #555; /* Dark gray color for the author's name */
+}
